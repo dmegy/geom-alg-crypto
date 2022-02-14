@@ -1,7 +1,7 @@
 TD5
 ===
 
-Ce fichier marksown contient quelques lignes de code qui peuvent aider à vérifier ses résultats, pour certains exercices.
+Ce fichier markdown contient quelques lignes de code qui peuvent aider à vérifier les résultats obtenus à  la main.
 
 Exercice 1
 ---
@@ -14,7 +14,7 @@ C = Curve(x^3+y^3+z^3+x^2*y+y^2*z+z^2*x+x*y*z, P)
 C.closed_points()
 ```
 
-
+(Pas de points)
 
 Exercice 3
 ---
@@ -36,7 +36,7 @@ Exercice 7
 
 Sur la courbe $y^2=x^3-x+1$ sur le corps à 11 éléments :
 
-Nombre de points et du groupe abélien :
+Nombre de points et structure du groupe abélien :
 ```
 E = EllipticCurve(GF(11),[-1,1])
 E.abelian_group()
