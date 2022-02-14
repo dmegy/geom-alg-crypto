@@ -1,4 +1,4 @@
-TD5
+TD5 - Révisions
 ===
 
 Ce fichier markdown contient quelques lignes de code qui peuvent aider à vérifier les résultats obtenus à  la main.
@@ -14,7 +14,7 @@ C = Curve(x^3+y^3+z^3+x^2*y+y^2*z+z^2*x+x*y*z, P)
 C.closed_points()
 ```
 
-(Pas de points)
+(Pas de points sur $\F_{2}$!)
 
 Exercice 3
 ---
@@ -28,7 +28,7 @@ C = Curve(y^2*z^2-x*(x-z)*(x-2*z)*(x-3*z), P)
 C.singular_closed_points()
 ```
 
-(Ici le point à l'infini est singulier : lorsqu'on donne une courbe hyperelliptique par sa forme affine, il est sous-entendu qu'on désingularise le point à l'infini.)
+(Ici le point à l'infini est singulier : lorsqu'on donne une courbe hyperelliptique par sa forme affine, il est donc sous-entendu qu'on désingularise le point à l'infini.)
 
 
 Exercice 7
